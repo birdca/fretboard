@@ -87,13 +87,11 @@ $(document).ready(function(){
           } else if (fretb_orientation == "horizontal") {
             switchList = switchList_h;
           }
-          $.each( toReplace, function(i,character) {
+          toReplace.forEach((char, i) => {
             // Go through each item in SwitchList, if matches ASCII key then replace with SVG code
-            $.each( switchList, function( key, value ) {
-              if (character == key) {
-                replacement += value;
-              }
-            });
+            if (switchList[char] !== undefined) {
+              replacement += switchList[char];
+            }
           });
 
     // Update the page with the new HTML/SVG markup
