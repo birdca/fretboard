@@ -34,5 +34,30 @@ Here is each ASCII character that is supported for replacement. Each character i
 ### No Nut
 If you want to show a fretboard that is agnostic with respect to where it is relative to the nut of the guitar (i.e., the top of the guitar where the 0th fret would be), add class `.noNut` to the `.asciiFret` div.
 
+### renderFretBoard() API
+#### Concept
+Input data like:
+```
+title: horizontal, 5 frets
+type: h6 noNut
+        
+ -oO-*- 
+ --o-o- 
+ -o-oo- 
+ -o-oO- 
+ -oo-o- 
+ -*O-o- 
+```
+will generate html string.
+
+#### Details
+There are 3 parts of input data:
+1. title: fretboard title
+2. type: fretboard type, supporting for:
+    a. vertical: supporting for fret 4, 5, 7, 9, 12 and 15. The code is: v4, v5, v7, v9, v12, v15
+    b. horizontal: supporting for fret 5, 6 and 7. The code is: h5, h6, h7
+    c. noNut: default value is has nut, type **noNut** in type if you don't want to show nut. ex. type: h6 noNut
+3. [ascii fret](https://github.com/birdca/fretboard#basic-ascii-to-svg-setup)
+
 ### More coming soon... 
 Stay tuned.
