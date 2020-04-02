@@ -56,11 +56,11 @@ There are 3 parts of input data: title, type and ascii fret
 fretboard title
 ##### type
 fretboard type, supporting for:
-1. vertical: supporting for fret 4, 5, 7, 9, 12 and 15. The code is: v4, v5, v7, v9, v12, v15
+1. vertical: supporting for fret 4, 5, 7, 9, 12 and 15. The code is: `v4`, `v5`, `v7`, `v9`, `v12`, `v15`
 
-2. horizontal: supporting for fret 5, 6 and 7. The code is: h5, h6, h7
+2. horizontal: supporting for fret 5, 6 and 7. The code is: `h5`, `h6`, `h7`
 
-3. noNut: default value is has nut, type **noNut** in type if you don't want to show nut. ex. **type: h6 noNut**
+3. noNut: default value is has nut, type `noNut` in type if you don't want to show nut. ex. `type: h6 noNut`
 ##### ascii fret
 read more in [ascii fret](https://github.com/birdca/fretboard#basic-ascii-to-svg-setup)
 
