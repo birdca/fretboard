@@ -257,7 +257,7 @@ const fretb_horiz_6 = '<svg class="fretboard_bg" version="1.1" xmlns="http://www
                         </g>\
                       </svg>';
 
-var fretb_horiz_7 = '<svg class="fretboard_bg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 792 576" enable-background="new 0 0 792 576" xml:space="preserve">\
+const fretb_horiz_7 = '<svg class="fretboard_bg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 792 576" enable-background="new 0 0 792 576" xml:space="preserve">\
                         <g class="fret_bg">\
                       		<rect x="72" y="102" fill="#FFFFFF" width="648" height="372"/>\
                         </g>\
@@ -283,24 +283,3 @@ var fretb_horiz_7 = '<svg class="fretboard_bg" version="1.1" xmlns="http://www.w
                         	<rect x="72" y="106" width="20" height="368"/>\
                         </g>\
                       </svg>';
-
-module.exports = {
-  dotEmpty,
-  dotEmpty_h,
-  dot,
-  dot_h,
-  dotWideLeft,
-  dotWideRight,
-  dotWideMiddle,
-  string_o,
-  string_x,
-  fretb_vert_4,
-  fretb_vert_5,
-  fretb_vert_7,
-  fretb_vert_9,
-  fretb_vert_12,
-  fretb_vert_15,
-  fretb_horiz_5,
-  fretb_horiz_6,
-  fretb_horiz_7,
-}
