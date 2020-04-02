@@ -51,13 +51,18 @@ type: h6 noNut
 will generate html string.
 
 #### Details
-There are 3 parts of input data:
-1. title: fretboard title
-2. type: fretboard type, supporting for:
-    a. vertical: supporting for fret 4, 5, 7, 9, 12 and 15. The code is: v4, v5, v7, v9, v12, v15
-    b. horizontal: supporting for fret 5, 6 and 7. The code is: h5, h6, h7
-    c. noNut: default value is has nut, type **noNut** in type if you don't want to show nut. ex. type: h6 noNut
-3. [ascii fret](https://github.com/birdca/fretboard#basic-ascii-to-svg-setup)
+There are 3 parts of input data: title, type and ascii fret
+##### title
+fretboard title
+##### type
+fretboard type, supporting for:
+1. vertical: supporting for fret 4, 5, 7, 9, 12 and 15. The code is: v4, v5, v7, v9, v12, v15
+
+2. horizontal: supporting for fret 5, 6 and 7. The code is: h5, h6, h7
+
+3. noNut: default value is has nut, type **noNut** in type if you don't want to show nut. ex. **type: h6 noNut**
+##### ascii fret
+read more in [ascii fret](https://github.com/birdca/fretboard#basic-ascii-to-svg-setup)
 
 ### More coming soon... 
 Stay tuned.
